@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Make_New_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Make_New_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBlock Text="Hello World" FontSize="50" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF66CCFF"/>
+        <TextBlock 
+            Text="什么是Frame?我们可以类比浏览器。   
+            浏览器的结构是什么样的呀？上面是控制面板，下面是内容浏览。                                   
+            那个内容浏览的区域，就是Frame。整个UWP应用，就好比一个去掉控制面板的浏览器。
+            你的MainPage就好比是一个网页，网页可以在浏览器里来回跳转，可以切换到其它的网页，只要在Frame里，那就随你折腾，所以有些人戏称UWP就是个浏览器套壳应用。说是这么说，各位可一笑置之，莫要当真。                           
+            由此可知，一个UWP应用可以有很多个Page，正是通过这些Page之间的切换，我们才可以实现应用的诸多功能。但一个应用是不是也可以有很多个Frame呢？                                           
+            是的，可以有！                                            
+            但RootFrame只有一个，那就是Window。从视觉上说，就是你的应用周围那浅浅的灰边组成的框。Frame里可以嵌套Frame，但大家的祖宗都是Window。这就是UWP应用区别于传统Windows应用的一个特点。                   
+            过去的桌面应用，基本组成单元就是Window，软件是Window，对话框也是Window，只要你想，一个Win32应用可以弹出很多个Window，但UWP应用却只有一个Window（不久之后将允许多实例，但本质未变）。 "  
+            FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFEE0000" TextWrapping="WrapWholeWords" MaxWidth="300"/>
+    </StackPanel>
+</Page>
