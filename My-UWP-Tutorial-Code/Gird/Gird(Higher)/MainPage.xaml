@@ -1,0 +1,93 @@
+﻿<Page
+    x:Class="Gird_Higher_.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gird_Higher_"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#151D34">
+
+    <Grid Width="1300" Height="700" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="网格控件布局(迫害奥尔加)" Foreground="White" FontSize="20"/>
+        <TextBlock Text="🔫🌺👆👇" FontSize="25" Foreground="White" HorizontalAlignment="Right"/>
+        <StackPanel Height="1" HorizontalAlignment="Stretch" Background="Gray" VerticalAlignment="Bottom"/>
+        <Grid Grid.Row="1" Margin="0,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Ab" Foreground="White" FontSize="340" Margin="0,0,0,-80"/>
+            <StackPanel Grid.Column="1" Margin="30,0" Width="1" VerticalAlignment="Stretch" Background="Gray"/>
+            <Grid Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="铁血书·伊兹卡奥尔加传 节选:" FontSize="20" Foreground="White"/>
+                <TextBlock FontSize="12" Foreground="White" Grid.Row="1" TextWrapping="WrapWholeWords" MaxWidth="257" Margin="0,10,0,0">
+                    奥尔加与莱德出，查德侍立于外，时巷闾静谧，无有人声。至门下，有黑漆舆车骤至，舆客三人，大发铳弹。弹中查德，仆。奥尔加身掩莱德，背承弹沐，弹下如雨，犹自承受。莱德号呼曰：「团长何为？团长何为？」奥尔加不应，遂执铳反身，大呼发弹。凡三发，中二客，残客胆裂，驰车引去。
+                </TextBlock>
+            </Grid>
+
+            <StackPanel Grid.Column="3" Margin="30,0" Width="1" VerticalAlignment="Stretch" Background="Gray"/>
+
+            <TextBlock FontSize="10" Foreground="White" HorizontalAlignment="Left" Grid.Column="4" VerticalAlignment="Top" TextWrapping="Wrap" MaxWidth="150">
+                感觉真安静啊，街上也没有加拉尔号角，跟总部真是天差地别啊。
+                啊，可能是他们把火星的战力都调到那里去了。
+                不过这也和我们没关系了。
+                看你那高兴的样子。
+                那是当然的了！大家也有救了，塔卡基又那么努力，我也要加油了！
+            </TextBlock>
+            
+            <StackPanel Grid.Column="5" Margin="30,0" Width="1" VerticalAlignment="Stretch" Background="Gray"/>
+            
+            <TextBlock FontSize="47" Foreground="White" Grid.Column="6" VerticalAlignment="Top">
+                <Run Text=" 所以说，"/>
+                <LineBreak/>
+                <Run Text="不要"/>
+                <LineBreak/>
+                <Run Text="停下来啊！"/>
+            </TextBlock>
+            
+            <TextBlock FontSize="20" Text="止まるんじゃねぇぞ…" Foreground="White" VerticalAlignment="Bottom" Grid.Column="6"/>
+        </Grid>
+        <Grid Grid.Row="2" BorderBrush="Gray" BorderThickness="0,1,0,1" Padding="0,30">
+            <TextBlock Text="感觉好安静" FontWeight="Bold" Foreground="#347CDB" FontSize="37"/>
+            <Grid HorizontalAlignment="Right">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Ellipse Fill="White" Width="60" Height="60" Grid.Column="0" Margin="0,0,30,0"/>
+                <Ellipse Fill="Pink" Width="60" Height="60" Grid.Column="1" Margin="0,0,30,0"/>
+                <Ellipse Fill="SkyBlue" Width="60" Height="60" Grid.Column="2" Margin="0,0,30,0"/>
+                <Ellipse Fill="GreenYellow" Width="60" Height="60" Grid.Column="3" Margin="0,0,30,0"/>
+                <Ellipse Fill="Khaki" Width="60" Height="60" Grid.Column="4" Margin="0,0,30,0"/>
+                <Ellipse Fill="Aqua" Width="60" Height="60" Grid.Column="5"/>
+            </Grid>        
+        </Grid>
+        <Grid Grid.Row="3" Margin="0,30,0,0">
+            <TextBlock Text="Aa Bb Cc Dd Ee Ff Gg Hh Jj Kk" Foreground="White" FontWeight="Bold" FontSize="64" VerticalAlignment="Center"/>
+            <TextBlock Text="0 1 2 3 4 5 6 7 8 9" Foreground="White" FontWeight="Bold" FontSize="37" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+        </Grid>
+    </Grid>
+</Page>
